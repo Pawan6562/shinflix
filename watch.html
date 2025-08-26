@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Naya Title -->
-    <title>Watch Movie - Shin-Flix</title>
+    <title>Watch Movie - ShinPlay</title>
 
     <!-- Wahi cartoon font jo humne pehle use kiya -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Wahi stylesheet taaki design same rahe -->
-    <link rel="stylesheet" href="shinchan_style.css?v=1.1">
+    <link rel="stylesheet" href="shinchan_style.css?v=1.2">
     
     <!-- Is page ke liye thodi extra styling -->
     <style>
@@ -143,7 +143,7 @@
             if (currentMovie) {
                 // Page par saari jaankari daalo
                 // Naya Naam
-                document.title = `Watch ${currentMovie.title} - Shin-Flix`;
+                document.title = `Watch ${currentMovie.title} - ShinPlay`;
                 document.getElementById('video-player-container').innerHTML = currentMovie.embed;
                 document.getElementById('movie-poster').src = currentMovie.poster;
                 document.getElementById('movie-title').textContent = currentMovie.title;
